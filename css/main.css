@@ -92,6 +92,7 @@ body {
 
 .sales__details[data-state="active"] {
   opacity: 1;
+  margin-top: 0;
 }
 
 .sales__details {
@@ -104,15 +105,16 @@ body {
   border-radius: 6px;
   opacity: 0;
 
-  -moz-transition: opacity 0.4s ease-in-out;
-  -o-transition: opacity 0.4s ease-in-out;
-  -webkit-transition: opacity 0.4s ease-in-out;
-  transition: opacity 0.4s ease-in-out;
+  -moz-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
 }
 
 
 .sales__details2[data-state="active"] {
   opacity: 1;
+  margin-top: 0;
 }
 
 .sales__details2 {
@@ -125,10 +127,10 @@ body {
   border-radius: 6px;
   opacity: 0;
 
-  -moz-transition: opacity 0.4s ease-in-out;
-  -o-transition: opacity 0.4s ease-in-out;
-  -webkit-transition: opacity 0.4s ease-in-out;
-  transition: opacity 0.4s ease-in-out;
+  -moz-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
 }
 
 .sales__details2::before {
